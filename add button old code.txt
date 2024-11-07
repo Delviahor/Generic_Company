@@ -1,0 +1,14 @@
+// Employeer ID and second name are not complety allowed in Add option
+// Check if all TextBoxes have information
+string result_add_button = AreTextBoxesFilled(txtName_employeers, txtFirstName, txtEmail, txtDepartment);
+//object no_number_names = ExceptionHandler(typeof(string), txtName_employeers);
+// 
+if (result_add_button != null)
+{
+    MessageBox.Show(result_add_button, "Input Required", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+    return; // Exit the method if any TextBox is empty
+}
+
+// here show the message "New employeer with ID: {ID_employeers} has been added, just have the table in DB
+// Proceed with your logic here if all TextBoxes are filled
+MessageBox.Show($"New employeer has been added.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);

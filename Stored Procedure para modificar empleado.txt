@@ -1,0 +1,27 @@
+CREATE PROCEDURE sp_ModifyEmployee
+    @EmployeeID INT,
+    @Name NVARCHAR(100),
+    @FirstName NVARCHAR(100),
+    @Email NVARCHAR(100),
+    @Department NVARCHAR(100),
+    @RecordExists INT OUTPUT
+AS
+BEGIN
+    -- Verificar si el empleado existe
+    IF EXISTS (SELECT 1 FROM Employees WHERE EmployeeID = @EmployeeID)
+    BEGIN
+        UPDATE Employees
+        SET Name = @Name,
+            FirstName = @FirstName,
+            Email = @Email,
+            Department = @Department,
+            ModifiedDate = GETDATE()
+        WHERE EmployeeID = @EmployeeID
+
+        SET @RecordExists = 1
+    END
+    ELSE
+    BEGIN
+        SET @RecordExists = 0
+    END
+END

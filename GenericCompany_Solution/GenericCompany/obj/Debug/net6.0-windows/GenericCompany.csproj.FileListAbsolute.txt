@@ -1,0 +1,73 @@
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.csproj.AssemblyReference.cache
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.Form1.resources
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.csproj.GenerateResource.cache
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.GeneratedMSBuildEditorConfig.editorconfig
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.AssemblyInfoInputs.cache
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.AssemblyInfo.cs
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.csproj.CoreCompileInputs.cache
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.exe
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.deps.json
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.runtimeconfig.json
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.dll
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\ref\GenericCompany.dll
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.pdb
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.dll
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\ref\GenericCompany.dll
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.pdb
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.genruntimeconfig.cache
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.csproj.CopyComplete
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.exe
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.deps.json
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.runtimeconfig.json
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.dll
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.pdb
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.csproj.AssemblyReference.cache
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.Form1.resources
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.csproj.GenerateResource.cache
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.GeneratedMSBuildEditorConfig.editorconfig
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.AssemblyInfoInputs.cache
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.AssemblyInfo.cs
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.csproj.CoreCompileInputs.cache
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericC.5D494DF4.Up2Date
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.dll
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\refint\GenericCompany.dll
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.pdb
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.genruntimeconfig.cache
+E:\LAB_PROGRAMACION\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\ref\GenericCompany.dll
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.exe
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.deps.json
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.runtimeconfig.json
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.dll
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\GenericCompany.pdb
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.csproj.AssemblyReference.cache
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.Form1.resources
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.Form2.resources
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.csproj.GenerateResource.cache
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.AssemblyInfoInputs.cache
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.AssemblyInfo.cs
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.csproj.CoreCompileInputs.cache
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericC.5D494DF4.Up2Date
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.dll
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\refint\GenericCompany.dll
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.pdb
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.genruntimeconfig.cache
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\ref\GenericCompany.dll

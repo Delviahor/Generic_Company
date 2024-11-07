@@ -1,0 +1,13 @@
+CREATE PROCEDURE sp_AddEmployee
+    @Name NVARCHAR(100),
+    @FirstName NVARCHAR(100),
+    @Email NVARCHAR(100),
+    @Department NVARCHAR(100),
+    @EmployeeID INT OUTPUT
+AS
+BEGIN
+    INSERT INTO Employees (Name, FirstName, Email, Department)
+    VALUES (@Name, @FirstName, @Email, @Department)
+
+    SET @EmployeeID = SCOPE_IDENTITY()
+END

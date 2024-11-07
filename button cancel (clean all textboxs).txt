@@ -1,0 +1,10 @@
+private void button_cancel_employeers_Click(object sender, EventArgs e)
+{
+    // Clear the TextBoxes
+    txtID_employeers.Text = string.Empty;
+    txtName_employeers.Text = string.Empty;
+    txtFirstName.Text = string.Empty;
+    txtSecondName.Text = string.Empty;
+    txtEmail.Text = string.Empty;
+    txtDepartment.Text = string.Empty;
+}

@@ -1,0 +1,15 @@
+CREATE PROCEDURE sp_ModifyEmployee
+    @EmployeeID INT,
+    @Name NVARCHAR(100),
+    @FirstName NVARCHAR(100),
+    @Email NVARCHAR(100),
+    @Department NVARCHAR(100)
+AS
+BEGIN
+    UPDATE Employees
+    SET Name = @Name,
+        FirstName = @FirstName,
+        Email = @Email,
+        Department = @Department
+    WHERE EmployeeID = @EmployeeID
+END

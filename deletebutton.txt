@@ -1,0 +1,46 @@
+private void button_delete_employeers_Click(object sender, EventArgs e)
+{
+    // Assume ExceptionHandler correctly returns an int or throws an exception
+    object result = ExceptionHandler(typeof(int), txtID_employeers, "ID");
+
+    if (result is int employeeId)
+    {
+        DialogResult result_1 = MessageBox.Show("Do you want to continue?", "Confirm", MessageBoxButtons.YesNo);
+        if (result_1 == DialogResult.Yes)
+        {
+            string connectionString = "Data Source=ING-DIBUJOPC1;Initial Catalog=Generic_Company_DB;Integrated Security=True";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand("deleteEmployeer", connection);
+                command.CommandType = CommandType.StoredProcedure;
+
+                // Correctly add the parameter with the parsed employeeId
+                command.Parameters.Add(new SqlParameter("@EmployeeID", employeeId));
+
+                try
+                {
+                    connection.Open();
+                    int rowsAffected = command.ExecuteNonQuery();
+
+                    if (rowsAffected > 0)
+                    {
+                        MessageBox.Show("Employee has been deleted.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("No employee found with the specified ID.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+        else
+        {
+            // User clicked No
+        }
+    }
+}

@@ -1,0 +1,14 @@
+if (result is int employeeId)
+            {
+                DialogResult result_1 = MessageBox.Show("Do you want to continue?", "Confirm", MessageBoxButtons.YesNo);
+                if (result_1 == DialogResult.Yes)
+                {
+                    // User clicked Yes
+                    MessageBox.Show("Employee has been deleted.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    
+                    // **** i can use the SP from the DB do delete here ****
+                }
+                else
+                {
+                    // User clicked No
+                }

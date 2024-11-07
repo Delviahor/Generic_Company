@@ -1,0 +1,16 @@
+Titulo: Mascara de subred
+Contenido: Se clasifica de manera similar a la direccion IP segun su objeto, por ejemplo, la clase C
+es la mas comun y se usa para redes pequeñas y medianas, por ende la mascara seria 255.255.255.0
+ya que utiliza los primeros 24 bits para identificar la red y los ultimos 28 bits (no recuerdo)
+hosts.
+
+Para determinar el numero de subredes debemos saber el numero de bits que se utilizara para la identificacion
+de subredes, si queremos dividir una red C en subredes se utiliza una mascara de subred mas especifica
+del tipo 255.255.240.0 ya que crea 16 subredes con 14 hosts cada una.
+
+Para elegir correctamente la mascara va a depender del tamaño y complejidad de la red asi como
+los requisitos de la empresa, la creacion de estas, ayudan a mejorar la seguridad y la eficiencia
+de la red.
+
+Para calcular correctamente la mascara se suman los bits necesarios para la identificacion de subred
+y los bits para la identificacion de hosts dentro de la subred 
