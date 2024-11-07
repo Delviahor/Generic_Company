@@ -10,7 +10,7 @@ namespace GenericCompany
         {
             InitializeComponent();
         }
-        string connectionString = "Data Source = ING - DIBUJOPC1; Initial Catalog = Generic_Company_DB; Integrated Security = True";
+        string connectionString = "Data Source=LAPTOP-F6NVJ00I\\MSSQLSERVER01;Initial Catalog=Generic_Company_DB;Integrated Security=True;Encrypt=False";
         private string AreTextBoxesFilled(params TextBox[] textBoxes)
         {
             foreach (var textBox in textBoxes)
@@ -26,7 +26,7 @@ namespace GenericCompany
         // Primero, agregar la clase de conexión
         public class DBConnection
         {
-            private static string connectionString = "Data Source = ING - DIBUJOPC1; Initial Catalog = Generic_Company_DB; Integrated Security = True"; // Ajusta según tu conexión
+            private static string connectionString = "Data Source=LAPTOP-F6NVJ00I\\MSSQLSERVER01;Initial Catalog=Generic_Company_DB;Integrated Security=True;Encrypt=False"; // Ajusta según tu conexión
 
             public static SqlConnection GetConnection()
             {
@@ -149,7 +149,7 @@ namespace GenericCompany
                 DialogResult result_1 = MessageBox.Show("Do you want to continue?", "Confirm", MessageBoxButtons.YesNo);
                 if (result_1 == DialogResult.Yes)
                 {
-                    string connectionString = "Data Source=ING-DIBUJOPC1;Initial Catalog=Generic_Company_DB;Integrated Security=True";
+                    string connectionString = "Data Source=LAPTOP-F6NVJ00I\\MSSQLSERVER01;Initial Catalog=Generic_Company_DB;Integrated Security=True;Encrypt=False";
 
                     using (SqlConnection connection = new SqlConnection(connectionString))
                     {

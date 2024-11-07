@@ -71,3 +71,4 @@ C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\Gene
 C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.pdb
 C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.genruntimeconfig.cache
 C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\ref\GenericCompany.dll
+C:\Users\Abadeer\Documents\LAB_PROGRAMACION - copia\GenericCompany_Solution\GenericCompany\obj\Debug\net6.0-windows\GenericCompany.sourcelink.json
