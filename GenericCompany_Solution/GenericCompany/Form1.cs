@@ -90,7 +90,7 @@ namespace GenericCompany
         private void button_add_employeers_Click(object sender, EventArgs e)
         {
             // Verificar si los TextBoxes están llenos
-            string result_add_button = AreTextBoxesFilled(txtName_employeers, txtFirstName, txtEmail, txtDepartment);
+            string result_add_button = AreTextBoxesFilled(txtName_employeers, txtFirstName, txtSecondName, txtEmail, txtDepartment);
 
             if (result_add_button != null)
             {
@@ -109,6 +109,7 @@ namespace GenericCompany
                         // Agregar parámetros del SP
                         cmd.Parameters.AddWithValue("@Name", txtName_employeers.Text.Trim());
                         cmd.Parameters.AddWithValue("@FirstName", txtFirstName.Text.Trim());
+                        cmd.Parameters.AddWithValue("@SecondName", txtSecondName.Text.Trim());
                         cmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());
                         cmd.Parameters.AddWithValue("@Department", txtDepartment.Text.Trim());
 
@@ -276,16 +277,18 @@ namespace GenericCompany
                         conn.Open();
                         int result = cmd.ExecuteNonQuery();
 
-                        if (result > 0)
+                        if (result >= 0)
+                        {
+                            MessageBox.Show($"No se encontró empleado con ID: {employeeId}",
+                                          "Registro no encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                            
+                        }
+                        else
                         {
                             MessageBox.Show($"Empleado con ID: {employeeId} ha sido actualizado.",
                                           "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             ClearTextBoxes();
-                        }
-                        else
-                        {
-                            MessageBox.Show($"No se encontró empleado con ID: {employeeId}",
-                                          "Registro no encontrado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                     }
                 }
