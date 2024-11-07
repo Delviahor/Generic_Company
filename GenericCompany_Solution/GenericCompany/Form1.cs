@@ -142,51 +142,45 @@ namespace GenericCompany
 
         private void button_delete_employeers_Click(object sender, EventArgs e)
         {
-            object result = ExceptionHandler(typeof(int), txtID_employeers, "ID");
-            int employee__Id = int.Parse(txtID_employeers.Text);
-            if (result is int employeeId)
+            // Validar si el texto en el TextBox es un número entero
+            if (int.TryParse(txtID_employeers.Text, out int employeeId))
             {
-                DialogResult result_1 = MessageBox.Show("Do you want to continue?", "Confirm", MessageBoxButtons.YesNo);
-                if (result_1 == DialogResult.Yes)
+                DialogResult result = MessageBox.Show("¿Quieres continuar?", "Confirmar", MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
                 {
                     string connectionString = "Data Source=LAPTOP-F6NVJ00I\\MSSQLSERVER01;Initial Catalog=Generic_Company_DB;Integrated Security=True;Encrypt=False";
-
                     using (SqlConnection connection = new SqlConnection(connectionString))
                     {
                         SqlCommand command = new SqlCommand("deleteEmployeer", connection);
                         command.CommandType = CommandType.StoredProcedure;
-                        command.Parameters.Add(new SqlParameter("@ID_Employee", employee__Id));
-
+                        command.Parameters.Add(new SqlParameter("@ID_Employee", employeeId));
                         try
                         {
                             connection.Open();
                             int rowsAffected = command.ExecuteNonQuery();
-
                             if (rowsAffected <= 0)
                             {
-                                // No rows affected means the employee ID might not exist
-                                MessageBox.Show("No employee found with the specified ID.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
+                                MessageBox.Show("No se encontró ningún empleado con el ID especificado.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                             }
                             else
                             {
-                                // User clicked Yes and employee was deleted
-                                MessageBox.Show("Employee has been deleted.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                MessageBox.Show("El empleado ha sido eliminado.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                         }
                         catch (Exception ex)
                         {
-                            // Handle exception (log it, show a message, etc.)
-                            MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                 }
-
                 else
                 {
-                    // User clicked No
+                    // El usuario hizo clic en No
                 }
-
+            }
+            else
+            {
+                MessageBox.Show("El valor ingresado en el campo 'ID' no es un número entero válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
