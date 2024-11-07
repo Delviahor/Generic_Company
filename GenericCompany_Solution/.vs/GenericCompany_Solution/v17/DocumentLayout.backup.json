@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Abadeer\\Documents\\LAB_PROGRAMACION - copia\\GenericCompany_Solution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B913483-DABA-4360-B129-450534DA9DAD}|GenericCompany\\GenericCompany.csproj|c:\\users\\abadeer\\documents\\lab_programacion - copia\\genericcompany_solution\\genericcompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B913483-DABA-4360-B129-450534DA9DAD}|GenericCompany\\GenericCompany.csproj|solutionrelative:genericcompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Abadeer\\Documents\\LAB_PROGRAMACION - copia\\GenericCompany_Solution\\GenericCompany\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GenericCompany\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B913483-DABA-4360-B129-450534DA9DAD}|GenericCompany\\GenericCompany.csproj|C:\\Users\\Abadeer\\Documents\\LAB_PROGRAMACION - copia\\GenericCompany_Solution\\genericcompany\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1B913483-DABA-4360-B129-450534DA9DAD}|GenericCompany\\GenericCompany.csproj|solutionrelative:genericcompany\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Abadeer\\Documents\\LAB_PROGRAMACION - copia\\GenericCompany_Solution\\genericcompany\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:genericcompany\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B913483-DABA-4360-B129-450534DA9DAD}|GenericCompany\\GenericCompany.csproj|C:\\Users\\Abadeer\\Documents\\LAB_PROGRAMACION - copia\\GenericCompany_Solution\\genericcompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1B913483-DABA-4360-B129-450534DA9DAD}|GenericCompany\\GenericCompany.csproj|solutionrelative:genericcompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Abadeer\\Documents\\LAB_PROGRAMACION - copia\\GenericCompany_Solution\\genericcompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:genericcompany\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,7 +43,7 @@
               "RelativeDocumentMoniker": "GenericCompany\\Form1.cs",
               "ToolTip": "C:\\Users\\Abadeer\\Documents\\LAB_PROGRAMACION - copia\\GenericCompany_Solution\\GenericCompany\\Form1.cs",
               "RelativeToolTip": "GenericCompany\\Form1.cs",
-              "ViewState": "AgIAANgAAAAAAAAAAAA2wKEAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAANYAAAAAAAAAAAAUwPcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T11:56:13.731Z",
               "EditorCaption": ""

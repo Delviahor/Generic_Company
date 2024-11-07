@@ -249,7 +249,7 @@ namespace GenericCompany
             }
 
             // Verificar que los campos requeridos estén llenos
-            string result_modify_button = AreTextBoxesFilled(txtName_employeers, txtFirstName, txtEmail, txtDepartment);
+            string result_modify_button = AreTextBoxesFilled(txtName_employeers, txtFirstName, txtSecondName, txtEmail, txtDepartment);
             if (result_modify_button != null)
             {
                 MessageBox.Show(result_modify_button, "Campos Requeridos",
@@ -269,6 +269,7 @@ namespace GenericCompany
                         cmd.Parameters.AddWithValue("@EmployeeID", employeeId);
                         cmd.Parameters.AddWithValue("@Name", txtName_employeers.Text.Trim());
                         cmd.Parameters.AddWithValue("@FirstName", txtFirstName.Text.Trim());
+                        cmd.Parameters.AddWithValue("SecondName", txtSecondName.Text.Trim());
                         cmd.Parameters.AddWithValue("@Email", txtEmail.Text.Trim());
                         cmd.Parameters.AddWithValue("@Department", txtDepartment.Text.Trim());
 
